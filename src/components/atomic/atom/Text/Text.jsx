@@ -9,6 +9,8 @@ const StyledText = styled(TextAntd)`
 `;
 
 const Text = (props) => {
+  const { fontSize, color, children } = props;
+
   return (
     <StyledText fontSize={fontSize} color={color}>
       {children}
