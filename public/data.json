@@ -1,5 +1,5 @@
 {
-  "CalFood": [
+  "calFood": [
     {
       "id": 1,
       "name": "ผัดไทกุ้งสดใส่ไข่",
@@ -210,5 +210,6 @@
       "image": "https://img-ha.mthcdn.com/d17KFNHJouwmcYeCAvgARsZ-YA4=/women.mthai.com/app/uploads/2015/06/iStock_000065469107_Small-600x399.jpg",
       "type": "ขนมหวาน"
     }
-  ]
+  ],
+  "types": ["ข้าว", "เส้น", "ยำ", "ขนมหวาน"]
 }

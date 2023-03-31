@@ -1,12 +1,14 @@
 import { Text, Dropdown } from "@atomic";
+import React from "react";
 
 const DropdownMenu = (props) => {
-  const { label, items, title } = props;
+  const { items, label } = props;
+
   return (
     <div>
       <Text>{label}</Text>
       <div>
-        <Dropdown items={items} title={title} />
+        <Dropdown items={items} />
       </div>
     </div>
   );

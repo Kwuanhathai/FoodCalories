@@ -1,4 +1,5 @@
 import { Text, Input } from "@atomic";
+import React from "react";
 
 const Search = (props) => {
   const { label, fontSize, color, placeholder, value } = props;

@@ -1,15 +1,18 @@
 import { Card, Text, Image } from "@atomic";
+import React from "react";
 
 const CaloriesPage = (props) => {
-  const {} = props;
+  const { value, onCaloriesPageClick } = props;
 
   return (
     <div>
-      <Card>
-        <Text>{CalFood.name}</Text>
-        <Image src={CalFood.image} />
-        <Text>{CalFood.cal}</Text>
-      </Card>
+      <div className="food-bg" onClick={onCaloriesPageClick}>
+        <Card>
+          <Text>{value.name}</Text>
+          <Image src={value.image} />
+          <Text>{value.cal}</Text>
+        </Card>
+      </div>
     </div>
   );
 };

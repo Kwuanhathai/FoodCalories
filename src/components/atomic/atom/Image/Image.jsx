@@ -1,23 +1,17 @@
 import { Image as ImageAntd } from "antd";
 import styled from "styled-components";
+import React from "react";
 
 const StyledImage = styled(ImageAntd)`
-  width: ${(props) => props?.width};
-  height: ${(props) => props?.height};
-  border-radius: ${(props) => props?.borderRadius};
+  width: ${(props) => props?.width || "200px"};
+  height: ${(props) => props?.height || "200px"};
+  border-radius: ${(props) => props?.border_radius || "2px"};
 `;
 
 const Image = (props) => {
-  const { width, height, borderRadius } = props;
+  const { src } = props;
 
-  return (
-    <ImageAntd
-      src={src}
-      width={width}
-      height={height}
-      borderRadius={borderRadius}
-    />
-  );
+  return <StyledImage src={src} />;
 };
 
 export default Image;

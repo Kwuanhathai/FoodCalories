@@ -1,13 +1,14 @@
-import { Card, Image } from "@atomic";
+import { Card, Image, Text } from "@atomic";
+import React from "react";
 
 const FoodCard = (props) => {
-  const { name, src } = props;
+  const { data } = props;
 
   return (
     <div>
       <Card>
-        <Image src={src} />
-        <Text>{name}</Text>
+        <Image src={data.image} />
+        <Text>{data.name}</Text>
       </Card>
     </div>
   );
