@@ -1,4 +1,4 @@
-import { Text, DropdownMenu, Search, Card } from "@atomic";
+import { Text, Search, Card } from "@atomic";
 import { Col, Row } from "antd";
 import React from "react";
 
@@ -11,10 +11,7 @@ const SearchPage = (props) => {
         <Text>FOOD CALORIES</Text>
         <Row>
           <Col>
-            <DropdownMenu items={data} label={"ประเภทอาหาร"} />
-          </Col>
-          <Col>
-            <Search />
+            <Search data={data} />
           </Col>
         </Row>
         <Row>{foodCardElement}</Row>

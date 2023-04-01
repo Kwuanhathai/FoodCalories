@@ -15,7 +15,7 @@ const Card = (props) => {
     <StyledCard
       hoverable
       width={width}
-      borderRadius={border_radius}
+      border_radius={border_radius}
       padding={padding}
     >
       {children}
