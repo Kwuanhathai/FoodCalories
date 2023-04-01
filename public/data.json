@@ -1,215 +1,212 @@
-{
-  "calFood": [
-    {
-      "id": 1,
-      "name": "ผัดไทกุ้งสดใส่ไข่",
-      "cal": 550,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%97.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 2,
-      "name": "ยำหมูยอ",
-      "cal": 120,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-02.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 3,
-      "name": "ยำวุ้นเส้น",
-      "cal": 140,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-03.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 4,
-      "name": "ข้าวผัดกระเพราไก่ไข่ดาว",
-      "cal": 630,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B9%84%E0%B8%81%E0%B9%88%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 5,
-      "name": "ยำมะม่วง",
-      "cal": 150,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-05.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 6,
-      "name": "ผัดซีอิ๊วเส้นใหญ่หมู",
-      "cal": 679,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B9%8A%E0%B8%A7.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 7,
-      "name": "ข้าวผัดคะน้าหมูกรอบ",
-      "cal": 670,
-      "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000024187832_Small.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 8,
-      "name": "ข้าวไข่เจียวหมูสับ",
-      "cal": 605,
-      "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000085134103_Small.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 9,
-      "name": "ยำขนมจีน",
-      "cal": 160,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-04.-1536x864.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 10,
-      "name": "บะหมี่หมูต้มยำ",
-      "cal": 300,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9A%E0%B8%B0%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 11,
-      "name": "ราดหน้าเส้นใหญ่หมู",
-      "cal": 490,
-      "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000056020814_Small.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 12,
-      "name": "ข้าวราดปลาหมึกผัดไข่เค็ม",
-      "cal": 600,
-      "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000071407531_Small.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 13,
-      "name": "สุกี้น้ำไก่",
-      "cal": 345,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%AA%E0%B8%B8%E0%B8%81%E0%B8%B5%E0%B9%89.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 14,
-      "name": "ขนมถ้วย 1 ถ้วย",
-      "cal": 125,
-      "image": "https://img-ha.mthcdn.com/F3LKmYsT2vxTQMtnG6BU6EAJCiA=/women.mthai.com/app/uploads/2015/06/iStock_000063848437_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 15,
-      "name": "ยำถั่วพู",
-      "cal": 160,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-06..jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 16,
-      "name": "ราดหน้าหมี่กรอบหมู",
-      "cal": 690,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 17,
-      "name": "หมูกระเทียม",
-      "cal": 495,
-      "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000055170192_Small.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 18,
-      "name": "ขนมครก 1 คู่ ",
-      "cal": 100,
-      "image": "https://img-ha.mthcdn.com/Cv-kBFlq3EEQ3ZU8Y2ve-JaHmhg=/women.mthai.com/app/uploads/2015/06/iStock_000063761139_Small-1-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 19,
-      "name": "ผัดมักกะโรนีกุ้ง",
-      "cal": 420,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%A1%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg",
-      "type": "เส้น"
-    },
-    {
-      "id": 20,
-      "name": "ยำไข่ต้ม",
-      "cal": 170,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-07.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 21,
-      "name": "ขนมเบื้องไทยไส้หวาน 1 ชิ้น",
-      "cal": 60,
-      "image": "https://img-ha.mthcdn.com/rspUZUD9pMq1UZa0L7O0MOwcLMM=/women.mthai.com/app/uploads/2015/06/iStock_000065448497_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 22,
-      "name": "กล้วยทอด 1 ชิ้น",
-      "cal": 128,
-      "image": "https://img-ha.mthcdn.com/CaF1WfLbWo7W0PDe5VUJaH3TPhc=/women.mthai.com/app/uploads/2015/06/iStock_000064995831_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 23,
-      "name": "ขนมใส่ไส้ 1 ห่อ",
-      "cal": 127,
-      "image": "https://img-ha.mthcdn.com/VE5NMn1Pzl1xcwzl_YaGna_lEno=/women.mthai.com/app/uploads/2015/06/134807885-600x400.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 24,
-      "name": "ข้าวหมูทอดกระเทียม",
-      "cal": 525,
-      "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg",
-      "type": "ข้าว"
-    },
-    {
-      "id": 25,
-      "name": "ขนมชั้น 1 ชิ้น",
-      "cal": 135,
-      "image": "https://img-ha.mthcdn.com/0FUBle83xQjMlYnUFkH9KacI1dk=/women.mthai.com/app/uploads/2015/06/1520190221-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 26,
-      "name": "ข้าวเหนียวมะม่วง",
-      "cal": 325,
-      "image": "https://img-ha.mthcdn.com/sHW0sthZdZZywV7xj6sJtkvoV00=/women.mthai.com/app/uploads/2015/06/iStock_000062397890_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 27,
-      "name": "กล้วยบวชชี",
-      "cal": 250,
-      "image": "https://img-ha.mthcdn.com/dvZsJNq5K_A1bD27yAodZXwDAkI=/women.mthai.com/app/uploads/2015/06/iStock_000061598458_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 28,
-      "name": "ยำปลากระป๋อง",
-      "cal": 100,
-      "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-01.jpg.webp",
-      "type": "ยำ"
-    },
-    {
-      "id": 29,
-      "name": "ข้าวต้มมัด",
-      "cal": 285,
-      "image": "https://img-ha.mthcdn.com/RJNPmK0dkJI12MfrvqCsFfFqAUk=/women.mthai.com/app/uploads/2015/06/iStock_000064776353_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    },
-    {
-      "id": 30,
-      "name": "ลอดช่องน้ำกะทิ",
-      "cal": 230,
-      "image": "https://img-ha.mthcdn.com/d17KFNHJouwmcYeCAvgARsZ-YA4=/women.mthai.com/app/uploads/2015/06/iStock_000065469107_Small-600x399.jpg",
-      "type": "ขนมหวาน"
-    }
-  ],
-  "types": ["ข้าว", "เส้น", "ยำ", "ขนมหวาน"]
-}
+[
+  {
+    "id": 1,
+    "name": "ผัดไทกุ้งสดใส่ไข่",
+    "cal": 550,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%97.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 2,
+    "name": "ยำหมูยอ",
+    "cal": 120,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-02.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 3,
+    "name": "ยำวุ้นเส้น",
+    "cal": 140,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-03.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 4,
+    "name": "ข้าวผัดกระเพราไก่ไข่ดาว",
+    "cal": 630,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B9%84%E0%B8%81%E0%B9%88%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 5,
+    "name": "ยำมะม่วง",
+    "cal": 150,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-05.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 6,
+    "name": "ผัดซีอิ๊วเส้นใหญ่หมู",
+    "cal": 679,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B9%8A%E0%B8%A7.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 7,
+    "name": "ข้าวผัดคะน้าหมูกรอบ",
+    "cal": 670,
+    "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000024187832_Small.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 8,
+    "name": "ข้าวไข่เจียวหมูสับ",
+    "cal": 605,
+    "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000085134103_Small.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 9,
+    "name": "ยำขนมจีน",
+    "cal": 160,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-04.-1536x864.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 10,
+    "name": "บะหมี่หมูต้มยำ",
+    "cal": 300,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%9A%E0%B8%B0%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 11,
+    "name": "ราดหน้าเส้นใหญ่หมู",
+    "cal": 490,
+    "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000056020814_Small.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 12,
+    "name": "ข้าวราดปลาหมึกผัดไข่เค็ม",
+    "cal": 600,
+    "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000071407531_Small.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 13,
+    "name": "สุกี้น้ำไก่",
+    "cal": 345,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%AA%E0%B8%B8%E0%B8%81%E0%B8%B5%E0%B9%89.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 14,
+    "name": "ขนมถ้วย 1 ถ้วย",
+    "cal": 125,
+    "image": "https://img-ha.mthcdn.com/F3LKmYsT2vxTQMtnG6BU6EAJCiA=/women.mthai.com/app/uploads/2015/06/iStock_000063848437_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 15,
+    "name": "ยำถั่วพู",
+    "cal": 160,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-06..jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 16,
+    "name": "ราดหน้าหมี่กรอบหมู",
+    "cal": 690,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 17,
+    "name": "หมูกระเทียม",
+    "cal": 495,
+    "image": "https://women.mthai.com/app/uploads/2016/02/iStock_000055170192_Small.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 18,
+    "name": "ขนมครก 1 คู่ ",
+    "cal": 100,
+    "image": "https://img-ha.mthcdn.com/Cv-kBFlq3EEQ3ZU8Y2ve-JaHmhg=/women.mthai.com/app/uploads/2015/06/iStock_000063761139_Small-1-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 19,
+    "name": "ผัดมักกะโรนีกุ้ง",
+    "cal": 420,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%A1%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg",
+    "type": "เส้น"
+  },
+  {
+    "id": 20,
+    "name": "ยำไข่ต้ม",
+    "cal": 170,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-07.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 21,
+    "name": "ขนมเบื้องไทยไส้หวาน 1 ชิ้น",
+    "cal": 60,
+    "image": "https://img-ha.mthcdn.com/rspUZUD9pMq1UZa0L7O0MOwcLMM=/women.mthai.com/app/uploads/2015/06/iStock_000065448497_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 22,
+    "name": "กล้วยทอด 1 ชิ้น",
+    "cal": 128,
+    "image": "https://img-ha.mthcdn.com/CaF1WfLbWo7W0PDe5VUJaH3TPhc=/women.mthai.com/app/uploads/2015/06/iStock_000064995831_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 23,
+    "name": "ขนมใส่ไส้ 1 ห่อ",
+    "cal": 127,
+    "image": "https://img-ha.mthcdn.com/VE5NMn1Pzl1xcwzl_YaGna_lEno=/women.mthai.com/app/uploads/2015/06/134807885-600x400.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 24,
+    "name": "ข้าวหมูทอดกระเทียม",
+    "cal": 525,
+    "image": "https://static.trueplookpanya.com/tppy/member/m_545000_547500/546742/cms/images/1-2018/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg",
+    "type": "ข้าว"
+  },
+  {
+    "id": 25,
+    "name": "ขนมชั้น 1 ชิ้น",
+    "cal": 135,
+    "image": "https://img-ha.mthcdn.com/0FUBle83xQjMlYnUFkH9KacI1dk=/women.mthai.com/app/uploads/2015/06/1520190221-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 26,
+    "name": "ข้าวเหนียวมะม่วง",
+    "cal": 325,
+    "image": "https://img-ha.mthcdn.com/sHW0sthZdZZywV7xj6sJtkvoV00=/women.mthai.com/app/uploads/2015/06/iStock_000062397890_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 27,
+    "name": "กล้วยบวชชี",
+    "cal": 250,
+    "image": "https://img-ha.mthcdn.com/dvZsJNq5K_A1bD27yAodZXwDAkI=/women.mthai.com/app/uploads/2015/06/iStock_000061598458_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 28,
+    "name": "ยำปลากระป๋อง",
+    "cal": 100,
+    "image": "https://digitalmore.co/wp-content/uploads/2021/12/yum-01.jpg.webp",
+    "type": "ยำ"
+  },
+  {
+    "id": 29,
+    "name": "ข้าวต้มมัด",
+    "cal": 285,
+    "image": "https://img-ha.mthcdn.com/RJNPmK0dkJI12MfrvqCsFfFqAUk=/women.mthai.com/app/uploads/2015/06/iStock_000064776353_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  },
+  {
+    "id": 30,
+    "name": "ลอดช่องน้ำกะทิ",
+    "cal": 230,
+    "image": "https://img-ha.mthcdn.com/d17KFNHJouwmcYeCAvgARsZ-YA4=/women.mthai.com/app/uploads/2015/06/iStock_000065469107_Small-600x399.jpg",
+    "type": "ขนมหวาน"
+  }
+]

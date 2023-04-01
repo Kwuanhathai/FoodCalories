@@ -1,20 +1,34 @@
-import { Text, Search, Card } from "@atomic";
+import { Text, Search, Card, FoodCard } from "@atomic";
 import { Col, Row } from "antd";
-import React from "react";
+import React, { useState } from "react";
 
 const SearchPage = (props) => {
-  const { data, foodCardElement } = props;
+  const { data } = props;
+  const [searchText, setSearchText] = useState("");
+
+  const filteredFoodCard = data?.filter((foodCard) => {
+    return foodCard?.name?.includes(searchText);
+  });
+
+  const foodCardElement = filteredFoodCard?.map((data, index) => {
+    return <FoodCard key={index} data={data} />;
+  });
 
   return (
     <div>
       <Card>
         <Text>FOOD CALORIES</Text>
         <Row>
-          <Col>
-            <Search data={data} />
-          </Col>
+          <Search
+            placeholder={"ค้นหารายการอาหาร"}
+            onChange={(event) => {
+              setSearchText(event.target.value);
+            }}
+          />
         </Row>
-        <Row>{foodCardElement}</Row>
+        <Row>
+          <Col>{foodCardElement}</Col>
+        </Row>
       </Card>
     </div>
   );

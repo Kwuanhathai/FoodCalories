@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchPage, FoodCard } from "@atomic";
+import { SearchPage } from "@atomic";
 import { useFetch } from "@useFetch";
 
 const url = "http://localhost:3000/data.json";
@@ -15,15 +15,10 @@ function App() {
     return <p style={{ color: "red" }}>{error}</p>;
   }
 
-  const foodCardElement = data?.calFood?.map((data, index) => {
-    return <FoodCard key={index} data={data} />;
-  });
-
   return (
     <div>
-      Food
       <div>
-        <SearchPage data={data} foodCardElement={foodCardElement} />
+        <SearchPage data={data} />
       </div>
     </div>
   );

@@ -6,8 +6,8 @@ const FoodCard = (props) => {
 
   return (
     <div>
-      <Card>
-        <Image src={data.image} />
+      <Card width={"320px"}>
+        <Image src={data.image} width={"250px"} height={"200px"} />
         <Text>{data.name}</Text>
       </Card>
     </div>

@@ -3,15 +3,22 @@ import styled from "styled-components";
 import React from "react";
 
 const StyledImage = styled(ImageAntd)`
-  width: ${(props) => props?.width || "200px"};
-  height: ${(props) => props?.height || "200px"};
-  border-radius: ${(props) => props?.border_radius || "2px"};
+  width: ${(props) => props?.width || "340px"};
+  height: ${(props) => props?.height || "250px"};
+  border-radius: ${(props) => props?.border_radius || "10px"};
 `;
 
 const Image = (props) => {
-  const { src } = props;
+  const { src, height, width, border_radius } = props;
 
-  return <StyledImage src={src} />;
+  return (
+    <StyledImage
+      src={src}
+      height={height}
+      width={width}
+      border_radius={border_radius}
+    />
+  );
 };
 
 export default Image;

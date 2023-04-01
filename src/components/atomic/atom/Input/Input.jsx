@@ -2,9 +2,9 @@ import { Input as InputAntd } from "antd";
 import React from "react";
 
 const Input = (props) => {
-  const { placeholder, value } = props;
+  const { placeholder, onChange } = props;
 
-  return <InputAntd placeholder={placeholder} value={value} />;
+  return <InputAntd placeholder={placeholder} onChange={onChange} />;
 };
 
 export default Input;
