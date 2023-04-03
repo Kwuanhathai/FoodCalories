@@ -2,8 +2,7 @@ import { Text, Search, Card, FoodCard } from "@atomic";
 import { Col, Row } from "antd";
 import React, { useState } from "react";
 
-const SearchPage = (props) => {
-  const { data } = props;
+const SearchPage = ({ data }) => {
   const [searchText, setSearchText] = useState("");
 
   const filteredFoodCard = data?.filter((foodCard) => {
@@ -13,6 +12,9 @@ const SearchPage = (props) => {
   const foodCardElement = filteredFoodCard?.map((data, index) => {
     return <FoodCard key={index} data={data} />;
   });
+
+  const url = new URL("http://localhost:3000/data.json");
+  console.log(url.searchParams.get("name"));
 
   return (
     <div>

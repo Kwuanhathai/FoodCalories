@@ -1,21 +1,41 @@
 import { Card, Text, Image, Icon } from "@atomic";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 
-const CaloriesPage = (props) => {
-  const { data, onCaloriesPageClick } = props;
+const CaloriesPage = () => {
+  const [cal, setCal] = useState({});
+  const { calID } = useParams();
+
+  async function getCalories(caloriesID) {
+    const response = await fetch(
+      `http://localhost:3000/data/id${caloriesID}.json`
+    );
+    const caloriesData = await response.json();
+    setCal(caloriesData);
+  }
+
+  useEffect(() => {
+    getCalories(calID);
+  }, [calID]);
+
+  let navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(`/`, { replace: true });
+  };
 
   return (
     <div>
-      <div className="food-bg" onClick={onCaloriesPageClick}>
+      <div className="food-bg">
         <Card>
           <div>
-            <Icon name={"back"} size={"20px"} />
+            <Icon name={"back"} size={"30px"} onClick={goBack} />
           </div>
-          <Text>{data.name}</Text>
+          <Text>{cal[0]?.name}</Text>
           <div>
-            <Image src={data.image} />
+            <Image src={cal[0]?.image} />
           </div>
-          <Text>{data.cal}</Text>
+          <Text>{cal[0]?.cal}</Text>
         </Card>
       </div>
     </div>

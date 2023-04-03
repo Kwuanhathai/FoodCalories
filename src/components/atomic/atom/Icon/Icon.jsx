@@ -13,10 +13,10 @@ const getIcon = (name) => {
 };
 
 const Icon = (props) => {
-  const { name, size } = props;
+  const { name, size, onClick } = props;
   const Icon = getIcon(name);
 
-  return <Icon style={{ fontSize: size }} />;
+  return <Icon style={{ fontSize: size }} onClick={onClick} />;
 };
 
 export default Icon;

@@ -1,6 +1,7 @@
 import React from "react";
-import { SearchPage } from "@atomic";
 import { useFetch } from "@useFetch";
+import { SearchPage, ErrorPage, CaloriesPage } from "@atomic";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const url = "http://localhost:3000/data.json";
 
@@ -17,9 +18,13 @@ function App() {
 
   return (
     <div>
-      <div>
-        <SearchPage data={data} />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SearchPage data={data} />} />
+          <Route path="calories/:calID" element={<CaloriesPage />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
