@@ -1,6 +1,25 @@
 import { Card, Image, Text, Icon } from "@atomic";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
+
+const IconContainer = styled.div`
+  display: flex;
+  justify-content: end;
+  padding-bottom: 0.5rem;
+`;
+
+const StyledFoodCard = styled.div`
+  margin: 2rem;
+  justify-content: center;
+`;
+
+const TextContainer = styled.div`
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+`;
 
 const FoodCard = ({ data }) => {
   let navigate = useNavigate();
@@ -10,15 +29,17 @@ const FoodCard = ({ data }) => {
   };
 
   return (
-    <div>
-      <Card width={"320px"}>
-        <div>
-          <Icon name={"info"} size={"20px"} onClick={handleOnIconInfoClick} />
-        </div>
-        <Image src={data.image} width={"250px"} height={"200px"} />
-        <Text>{data.name}</Text>
+    <StyledFoodCard>
+      <Card width={"27rem"}>
+        <IconContainer>
+          <Icon name={"info"} size={"2.5rem"} onClick={handleOnIconInfoClick} />
+        </IconContainer>
+        <Image src={data.image} width={"20rem"} height={"15rem"} />
+        <TextContainer>
+          <Text fontSize={"1.4rem"}>{data.name}</Text>
+        </TextContainer>
       </Card>
-    </div>
+    </StyledFoodCard>
   );
 };
 
