@@ -3,9 +3,9 @@ import styled from "styled-components";
 import React from "react";
 
 const StyledImage = styled(ImageAntd)`
-  width: ${(props) => props?.width || "340px"};
-  height: ${(props) => props?.height || "250px"};
-  border-radius: ${(props) => props?.border_radius || "10px"};
+  width: ${(props) => props?.width || "34rem"};
+  height: ${(props) => props?.height || "25rem"};
+  border-radius: ${(props) => props?.border_radius || "1rem"};
 `;
 
 const Image = (props) => {
