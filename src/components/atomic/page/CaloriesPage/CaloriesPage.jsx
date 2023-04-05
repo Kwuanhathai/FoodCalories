@@ -8,8 +8,8 @@ const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 8vh;
-  bottom: 8rem;
+  top: 5vh;
+  bottom: 5vh;
 `;
 
 const StyledCalPageDetail = styled.div`
@@ -19,13 +19,13 @@ const StyledCalPageDetail = styled.div`
   align-items: center;
 `;
 
+const StyleTitle = styled.div`
+  padding-bottom: 2rem;
+`;
+
 const StyledKcal = styled.div`
   display: flex;
   justify-content: end;
-`;
-
-const StyleTitle = styled.div`
-  padding-bottom: 2rem;
 `;
 
 const CaloriesPage = () => {
@@ -53,13 +53,13 @@ const CaloriesPage = () => {
   return (
     <div>
       <CardContainer>
-        <Card width={"65%"} height={"90%"} border_radius={"4.5rem"}>
+        <Card width={"65vw"} height={"90vh"} border_radius={"4.5rem"}>
           <div>
-            <Icon name={"back"} size={"30px"} onClick={goBack} />
+            <Icon name={"back"} size={"3vw"} onClick={goBack} />
           </div>
           <StyledCalPageDetail>
             <StyleTitle>
-              <Text fontSize={"2.2rem"}>{cal[0]?.name}</Text>
+              <Text fontSize={"2.2vw"}>{cal[0]?.name}</Text>
             </StyleTitle>
             <div>
               <Image
@@ -69,10 +69,10 @@ const CaloriesPage = () => {
                 border_radius={"2rem"}
               />
             </div>
-            <Text fontSize={"8rem"}>{cal[0]?.cal} </Text>{" "}
+            <Text fontSize={"7vw"}>{cal[0]?.cal} </Text>
           </StyledCalPageDetail>
           <StyledKcal>
-            <Text fontSize={"1.6rem"}> กิโลแคลอรี่</Text>
+            <Text fontSize={"1.6vw"}> กิโลแคลอรี่</Text>
           </StyledKcal>
         </Card>
       </CardContainer>

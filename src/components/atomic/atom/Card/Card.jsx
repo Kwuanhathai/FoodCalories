@@ -3,7 +3,7 @@ import styled from "styled-components";
 import React from "react";
 
 const StyledCard = styled(CardAntd)`
-  width: ${(props) => props?.width || "105rem"};
+  width: ${(props) => props?.width || "85vw"};
   height: ${(props) => props?.height || "90vh"};
   padding: ${(props) => props?.padding || "1rem"};
   border-radius: ${(props) => props?.border_radius};

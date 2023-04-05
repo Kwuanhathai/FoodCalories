@@ -30,7 +30,7 @@ const FoodCard = ({ data }) => {
 
   return (
     <StyledFoodCard>
-      <Card width={"27rem"} height={"25rem"}>
+      <Card width={"27rem"} height={"27rem"}>
         <IconContainer>
           <Icon name={"info"} size={"2.5rem"} onClick={handleOnIconInfoClick} />
         </IconContainer>

@@ -8,7 +8,7 @@ const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 3.5rem;
+  top: 2.5vw;
 `;
 
 const StyleRow = styled(Row)`
@@ -25,19 +25,18 @@ const SearchContainer = styled.div`
   align-items: center;
 `;
 
-const StyleDiv = styled.div`
+const SearchDiv = styled.div`
   height: 9vh;
   width: 60%;
-  padding-bottom: 2rem;
+  margin-bottom: 0.5vh;
 `;
 
 const FoodCardContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  overflow: scroll;
-  overflow-x: hidden;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
   height: 65vh;
   width: 100%;
 `;
@@ -61,21 +60,19 @@ const SearchPage = ({ data }) => {
       <CardContainer>
         <Card>
           <StyleRow>
-            <Text fontSize={"3.2rem"}>FOOD CALORIES</Text>
+            <Text fontSize={"3vw"}>FOOD CALORIES</Text>
           </StyleRow>
           <SearchContainer>
-            <StyleDiv>
+            <SearchDiv>
               <Search
                 placeholder={"ค้นหารายการอาหาร"}
                 onChange={(event) => {
                   setSearchText(event.target.value);
                 }}
               />
-            </StyleDiv>
+            </SearchDiv>
           </SearchContainer>
-          <FoodCardContainer>
-            <Row>{foodCardElement}</Row>
-          </FoodCardContainer>
+          <FoodCardContainer>{foodCardElement}</FoodCardContainer>
         </Card>
       </CardContainer>
     </div>

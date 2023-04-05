@@ -1,10 +1,15 @@
 import React from "react";
-import { InfoCircleOutlined, BackwardOutlined } from "@ant-design/icons";
+import {
+  InfoCircleOutlined,
+  BackwardOutlined,
+  FrownOutlined,
+} from "@ant-design/icons";
 
 const getIcon = (name) => {
   const Icons = {
     info: InfoCircleOutlined,
     back: BackwardOutlined,
+    frown: FrownOutlined,
   };
 
   const icon = Icons[name] || <div />;
