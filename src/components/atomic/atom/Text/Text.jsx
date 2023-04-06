@@ -7,6 +7,7 @@ const { Text: TextAntd } = Typography;
 const StyledText = styled(TextAntd)`
   font-size: ${(props) => props?.fontSize || "1.6 rem"};
   color: ${(props) => props?.color || "black"};
+  text-align: center;
 `;
 
 const Text = (props) => {

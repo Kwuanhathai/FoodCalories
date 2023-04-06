@@ -6,6 +6,7 @@ const StyledImage = styled(ImageAntd)`
   width: ${(props) => props?.width || "34rem"};
   height: ${(props) => props?.height || "25rem"};
   border-radius: ${(props) => props?.border_radius || "1rem"};
+  object-fit: cover;
 `;
 
 const Image = (props) => {
