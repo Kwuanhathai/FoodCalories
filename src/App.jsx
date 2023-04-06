@@ -3,7 +3,7 @@ import { useFetch } from "@useFetch";
 import { SearchPage, ErrorPage, CaloriesPage } from "@atomic";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const url = "http://localhost:3000/data.json";
+const url = "https://food-calories-9.netlify.app/data.json";
 
 function App() {
   const { data, loading, error } = useFetch(url);

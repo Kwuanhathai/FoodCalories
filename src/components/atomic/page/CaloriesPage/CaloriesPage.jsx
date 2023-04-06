@@ -51,7 +51,7 @@ const CaloriesPage = () => {
 
   async function getCalories(caloriesID) {
     const response = await fetch(
-      `http://localhost:3000/data/id${caloriesID}.json`
+      `https://food-calories-9.netlify.app/data/id${caloriesID}.json`
     );
     const caloriesData = await response.json();
     setCal(caloriesData);
