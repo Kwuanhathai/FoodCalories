@@ -8,7 +8,8 @@ const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 2.5vw;
+  top: 5vh;
+  bottom: 5rem;
 `;
 
 const StyleRow = styled(Row)`
@@ -58,7 +59,7 @@ const SearchPage = ({ data }) => {
   return (
     <div>
       <CardContainer>
-        <Card>
+        <Card background_color={"rgba(212, 195, 207, 0.906)"}>
           <StyleRow>
             <Text fontSize={"3vw"}>FOOD CALORIES</Text>
           </StyleRow>

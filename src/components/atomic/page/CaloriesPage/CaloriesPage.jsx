@@ -70,7 +70,12 @@ const CaloriesPage = () => {
   return (
     <div>
       <CardContainer>
-        <Card width={"65vw"} height={"90vh"} border_radius={"4.5rem"}>
+        <Card
+          width={"80vw"}
+          height={"90vh"}
+          border_radius={"4.5rem"}
+          background_color={"rgba(212, 195, 207, 0.957)"}
+        >
           <IconBox>
             <Icon name={"back"} size={"3rem"} onClick={goBack} />
           </IconBox>

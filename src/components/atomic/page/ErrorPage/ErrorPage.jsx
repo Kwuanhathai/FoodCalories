@@ -51,7 +51,11 @@ const ErrorPage = () => {
   return (
     <div>
       <CardContainer>
-        <Card width={"85vw"} height={"90vh"} border_radius={"4.5em"}>
+        <Card
+          width={"85vw"}
+          border_radius={"3rem"}
+          background_color={"rgba(212, 195, 207, 0.957)"}
+        >
           <ErrorPageContainer>
             <IconBox>
               <Icon name={"frown"} size={"20rem"} />
@@ -59,8 +63,6 @@ const ErrorPage = () => {
             <TextnBox>
               <Text fontSize={"4.8rem"}>404</Text>
               <Text fontSize={"3.6rem"}>Not found</Text>
-              {/* </TextnBox>
-            <TextnBox> */}
               <Text fontSize={"2.2rem"}>Sorry, cannot find this page</Text>
             </TextnBox>
             <ButtonBox>
