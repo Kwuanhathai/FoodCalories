@@ -25,7 +25,7 @@ const FoodCard = ({ data }) => {
   let navigate = useNavigate();
 
   const handleOnIconInfoClick = () => {
-    navigate(`calories/${data?.id}`, { replace: true });
+    navigate(`calories/${data?.id}`);
   };
 
   return (

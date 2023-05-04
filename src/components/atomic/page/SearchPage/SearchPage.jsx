@@ -53,9 +53,6 @@ const SearchPage = ({ data }) => {
     return <FoodCard key={index} data={data} />;
   });
 
-  const url = new URL("https://food-calories-9.netlify.app/data.json");
-  console.log(url.searchParams.get("name"));
-
   return (
     <div>
       <CardContainer>

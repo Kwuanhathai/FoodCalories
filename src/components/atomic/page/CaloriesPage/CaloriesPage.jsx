@@ -64,7 +64,7 @@ const CaloriesPage = () => {
   let navigate = useNavigate();
 
   const goBack = () => {
-    navigate(`/`, { replace: true });
+    navigate(`/`);
   };
 
   return (
